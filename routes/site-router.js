@@ -12,6 +12,9 @@ siteRouter.get('/graphs-example', (req, res, next) => {
   res.render('financial-data');
 })
 
+siteRouter.get('/currencies-example', (req, res, next) => {
+  res.render('currencies');
+})
 
 
 
